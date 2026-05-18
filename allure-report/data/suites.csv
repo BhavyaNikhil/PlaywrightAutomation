@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","13051","Demo Blaze Tests","chromium","2026-05-14","passed","2026-05-14","","DemoBlazeTest.spec.js","",""
+"","17886","Generate Auth State","chromium","2026-05-14","passed","2026-05-14","","auth\auth.setup.spec.js","",""
+"","20554","Login using API-created user","chromium","2026-05-14","passed","2026-05-14","","DemoBlazeTest.spec.js","",""

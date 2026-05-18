@@ -1,0 +1,7 @@
+2026-05-14T09:48:53.700Z [INFO] : Launching application
+2026-05-14T09:48:56.442Z [INFO] : Creating a user via UI
+2026-05-14T09:48:57.633Z [INFO] : Login with created user
+2026-05-14T09:48:57.634Z [INFO] : Logging in user: pavanol
+2026-05-14T09:48:58.727Z [INFO] : Landing in Home Page and selecting a product
+
+Finished Test: Demo Blaze Tests

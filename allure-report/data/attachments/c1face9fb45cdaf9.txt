@@ -1,0 +1,5 @@
+2026-05-14T09:39:13.014Z [INFO] : Launching application
+2026-05-14T09:39:16.331Z [INFO] : Creating a user via UI
+2026-05-14T09:39:17.256Z [INFO] : Login with created user
+Finished Test: Demo Blaze Tests
+2026-05-14T09:39:18.048Z [ERROR] : Test Failed: Demo Blaze Tests
