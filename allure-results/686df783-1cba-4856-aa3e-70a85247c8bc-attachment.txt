@@ -1,7 +1,0 @@
-2026-05-14T09:35:33.783Z [INFO] : Launching application
-2026-05-14T09:35:35.052Z [INFO] : Creating a user via UI
-2026-05-14T09:35:35.965Z [INFO] : Login with created user
-2026-05-14T09:35:36.975Z [INFO] : Landing in Home Page and selecting a product
-
-Finished Test: Demo Blaze Tests
-2026-05-14T09:35:49.238Z [ERROR] : Test Failed: Demo Blaze Tests

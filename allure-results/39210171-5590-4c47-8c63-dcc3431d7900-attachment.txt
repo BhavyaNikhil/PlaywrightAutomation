@@ -1,3 +1,0 @@
-2026-05-14T09:33:41.148Z [INFO] : Launching application
-Finished Test: Login using API-created user
-2026-05-14T09:33:44.541Z [ERROR] : Test Failed: Login using API-created user

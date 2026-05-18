@@ -1,5 +1,0 @@
-2026-05-14T09:40:14.138Z [INFO] : Launching application
-2026-05-14T09:40:15.733Z [INFO] : Creating user via API
-2026-05-14T09:40:16.729Z [INFO] : API Status: 200
-2026-05-14T09:40:16.759Z [INFO] : Logging in user: user1778751615733
-Finished Test: Login using API-created user

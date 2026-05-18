@@ -1,3 +1,0 @@
-2026-05-14T09:33:50.310Z [INFO] : Launching application
-Finished Test: Demo Blaze Tests
-2026-05-14T09:33:52.353Z [ERROR] : Test Failed: Demo Blaze Tests
