@@ -11,19 +11,25 @@ export class HomePage extends BasePage{
         const welcomeMessage = await this.getTextofElement(this.page.locator(this.welcome));
         return welcomeMessage;
     }
-    async selectProduct(productName){
-        const product = await this.page.getByRole('link',{name:productName});
-        
-        while(true){
-            if(await product.isVisible())
-            {
+    async selectProduct(productName) {
+        const product = this.page.getByRole('link', { name: productName });
+
+        while (true) {
+            await this.page.waitForSelector('.card-title', { state: 'visible' });
+
+            if (await product.isVisible()) {
                 await product.click();
-                break;
+                return;
             }
-            if(await this.page.locator(this.next).isVisible())
-            {
-                await this.clickElement(this.page.locator(this.next));
+
+            const nextBtn = this.page.locator(this.next);
+            const isNextVisible = await nextBtn.isVisible();
+
+            if (!isNextVisible) {
+                throw new Error(`Product "${productName}" not found on any page.`);
             }
+
+            await this.clickElement(nextBtn);
         }
     }
 }
