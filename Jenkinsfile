@@ -4,7 +4,7 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 sh 'npm install'
-                sh 'npx playwright install --with-deps'
+                sh 'npx playwright install'
             }
         }
         stage('Run Playwright Tests') {
