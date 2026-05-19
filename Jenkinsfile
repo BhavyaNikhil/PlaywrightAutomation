@@ -14,7 +14,15 @@ pipeline {
         }
         stage('Generate Allure Report') {
             steps {
-                sh 'npx allure generate allure-results --clean'
+                sh 'npx allure generate ./allure-results -o ./allure-report --clean'
+                publishHTML([
+                    allowMissing: false,
+                    alwaysLinkToLastBuild: true,
+                    keepAll: true,
+                    reportDir: 'allure-report',
+                    reportFiles: 'index.html',
+                    reportName: 'Allure Report'
+                ])
             }
         }
     }
