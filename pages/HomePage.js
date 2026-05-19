@@ -25,11 +25,15 @@ export class HomePage extends BasePage{
             const nextBtn = this.page.locator(this.next);
             const isNextVisible = await nextBtn.isVisible();
 
-            if (!isNextVisible) {
+             if (!(await nextBtn.isVisible())) {
                 throw new Error(`Product "${productName}" not found on any page.`);
             }
 
-            await this.clickElement(nextBtn);
+            // Force click bypasses intercepting elements during re-render
+            await nextBtn.click({ force: true });
+
+            // Wait for grid to clear and reload before next iteration
+            //await this.page.waitForSelector('.card-title', { state: 'hidden' });
         }
     }
 }

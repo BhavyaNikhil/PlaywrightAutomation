@@ -262,3 +262,43 @@
 2026-05-19T15:22:59.366Z [INFO] : Logging in user: pavanol
 2026-05-19T15:23:00.312Z [INFO] : Landing in Home Page and selecting a product
 2026-05-19T15:23:17.778Z [INFO] : Landing in Cart Page
+2026-05-19T15:34:12.515Z [INFO] : Launching application
+2026-05-19T15:34:15.830Z [INFO] : Creating user via API
+2026-05-19T15:34:16.565Z [INFO] : API Status: 200
+2026-05-19T15:34:16.565Z [INFO] : Logging in user: user1779204855830
+2026-05-19T15:34:19.115Z [INFO] : Launching application
+2026-05-19T15:34:21.154Z [INFO] : Creating a user via UI
+2026-05-19T15:34:22.042Z [INFO] : Login with created user
+2026-05-19T15:34:22.043Z [INFO] : Logging in user: pavanol
+2026-05-19T15:34:22.930Z [INFO] : Landing in Home Page and selecting a product
+2026-05-19T15:34:23.869Z [INFO] : Logging in user: pavanol
+2026-05-19T15:34:35.146Z [ERROR] : Test Failed: Demo Blaze Tests
+2026-05-19T15:34:40.525Z [INFO] : Launching application
+2026-05-19T15:34:52.094Z [INFO] : Creating a user via UI
+2026-05-19T15:34:53.091Z [INFO] : Login with created user
+2026-05-19T15:34:53.092Z [INFO] : Logging in user: pavanol
+2026-05-19T15:34:53.975Z [INFO] : Landing in Home Page and selecting a product
+2026-05-19T15:35:11.126Z [ERROR] : Test Failed: Demo Blaze Tests
+2026-05-19T15:35:17.074Z [INFO] : Launching application
+2026-05-19T15:35:23.995Z [INFO] : Creating a user via UI
+2026-05-19T15:35:24.908Z [INFO] : Login with created user
+2026-05-19T15:35:24.910Z [INFO] : Logging in user: pavanol
+2026-05-19T15:35:25.840Z [INFO] : Landing in Home Page and selecting a product
+2026-05-19T15:35:44.126Z [ERROR] : Test Failed: Demo Blaze Tests
+2026-05-19T15:36:23.214Z [INFO] : Launching application
+2026-05-19T15:36:26.578Z [INFO] : Creating user via API
+2026-05-19T15:36:26.938Z [INFO] : Logging in user: pavanol
+2026-05-19T15:36:27.640Z [INFO] : API Status: 200
+2026-05-19T15:36:27.701Z [INFO] : Logging in user: user1779204986578
+2026-05-19T15:36:31.691Z [INFO] : Launching application
+2026-05-19T15:36:34.181Z [INFO] : Creating a user via UI
+2026-05-19T15:36:35.985Z [INFO] : Login with created user
+2026-05-19T15:36:35.990Z [INFO] : Logging in user: pavanol
+2026-05-19T15:36:37.032Z [INFO] : Landing in Home Page and selecting a product
+2026-05-19T15:36:41.850Z [ERROR] : Test Failed: Demo Blaze Tests
+2026-05-19T15:36:48.573Z [INFO] : Launching application
+2026-05-19T15:36:56.198Z [INFO] : Creating a user via UI
+2026-05-19T15:36:57.211Z [INFO] : Login with created user
+2026-05-19T15:36:57.288Z [INFO] : Logging in user: pavanol
+2026-05-19T15:36:58.930Z [INFO] : Landing in Home Page and selecting a product
+2026-05-19T15:37:11.872Z [INFO] : Landing in Cart Page
