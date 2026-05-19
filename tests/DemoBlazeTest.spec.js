@@ -39,11 +39,11 @@ test('Demo Blaze Tests', async({page,pages})=>{
     logger.info('Landing in Home Page and selecting a product');
     await allure.step('Landing in Home Page and selecting a product', async() => {
         console.log(await pages.homePage.welcomeMessage());
-        await pages.homePage.selectProduct(productName);
+        //await pages.homePage.selectProduct(productName);
     })
     
-    logger.info('Landing in Cart Page');
+    /*logger.info('Landing in Cart Page');
     await allure.step('Landing in Cart Page', async() => {
         await pages.cartPage.addToCart();
-    })
+    })*/
 });

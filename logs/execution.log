@@ -302,3 +302,28 @@
 2026-05-19T15:36:57.288Z [INFO] : Logging in user: pavanol
 2026-05-19T15:36:58.930Z [INFO] : Landing in Home Page and selecting a product
 2026-05-19T15:37:11.872Z [INFO] : Landing in Cart Page
+2026-05-19T15:44:58.906Z [INFO] : Launching application
+2026-05-19T15:45:35.482Z [INFO] : Launching application
+2026-05-19T15:45:43.805Z [INFO] : Creating user via API
+2026-05-19T15:45:44.995Z [INFO] : API Status: 200
+2026-05-19T15:45:44.996Z [INFO] : Logging in user: user1779205543804
+2026-05-19T15:45:49.587Z [INFO] : Launching application
+2026-05-19T15:46:26.931Z [INFO] : Launching application
+2026-05-19T15:46:47.235Z [ERROR] : Test Failed: Demo Blaze Tests
+2026-05-19T15:46:53.265Z [INFO] : Launching application
+2026-05-19T15:47:05.299Z [INFO] : Creating a user via UI
+2026-05-19T15:47:06.233Z [INFO] : Login with created user
+2026-05-19T15:47:06.236Z [INFO] : Logging in user: pavanol
+2026-05-19T15:47:07.160Z [INFO] : Landing in Home Page and selecting a product
+2026-05-19T15:47:07.186Z [INFO] : Landing in Cart Page
+2026-05-19T15:47:17.902Z [ERROR] : Test Failed: Demo Blaze Tests
+2026-05-19T15:48:32.131Z [INFO] : Launching application
+2026-05-19T15:48:37.562Z [INFO] : Creating user via API
+2026-05-19T15:48:38.492Z [INFO] : API Status: 200
+2026-05-19T15:48:38.493Z [INFO] : Logging in user: user1779205717562
+2026-05-19T15:48:43.782Z [INFO] : Launching application
+2026-05-19T15:48:46.870Z [INFO] : Creating a user via UI
+2026-05-19T15:48:47.904Z [INFO] : Login with created user
+2026-05-19T15:48:47.907Z [INFO] : Logging in user: pavanol
+2026-05-19T15:48:48.981Z [INFO] : Landing in Home Page and selecting a product
+2026-05-19T15:49:01.546Z [INFO] : Logging in user: pavanol
