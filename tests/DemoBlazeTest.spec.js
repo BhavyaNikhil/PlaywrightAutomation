@@ -42,7 +42,7 @@ test('Demo Blaze Tests', async({page,pages})=>{
         //await pages.homePage.selectProduct(productName);
     })
     
-    //commented these lines because of synchronization problems
+    //commented these lines because of synchronization problem
     /*logger.info('Landing in Cart Page');
     await allure.step('Landing in Cart Page', async() => {
         await pages.cartPage.addToCart();
